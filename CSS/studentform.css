@@ -1,0 +1,47 @@
+        body{
+            background-color:violet;
+        }
+        fieldset{
+            margin-top: 50px;
+        }
+        legend{
+            text-align: center;
+            font-family: cursive;
+            font-weight: bold;
+            font-size: x-large;
+        }
+        div{
+            text-align: center;
+            font-size: large;
+        }
+        label{
+            color: azure;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin-bottom: 5px;
+            text-align:right;
+        }
+        input {
+            height: 30px;
+            font-size: 20px;
+            margin: 20px;
+           
+        }
+        select{
+            width: 15%;
+            height: 50px;
+            text-align: center;
+            font-size: large;
+            margin-bottom: 50px;
+        }
+        .selectm{
+            height: 190px;
+            text-align: center;
+            font-size: large;
+
+        }
+        button{
+            width: 10%;
+            height: 50px;
+            margin-right: 100px;
+        }

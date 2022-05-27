@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="studentform.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student_Register</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Student Register Form</legend>
+        <div>
+        <form>
+            <label>Name :</label>
+            <input type="text" placeholder="Enter the your Name" autofocus required/>
+            <br>
+            <label>Email Id :</label>
+            <input type="email" placeholder="Enter your mail id" required/>
+            <br>
+            <label>Mobile No :</label>
+            <input type="number" placeholder="Enter your Mobile Number" maxlength="10" required/>
+            <br>
+            <label>Date of Birth :</label>
+            <input type="date"/>
+            <br>
+            <label>Gender :</label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Transgender
+            <br>
+            <label>Courses :</label>
+            <select>
+                <option value="0">------Select your courses------</option>
+                <option value="1">CSE</option>
+                <option value="2">IT</option>
+                <option value="3">EEE</option>
+            </select>
+            <br>
+            <label>Select city :</label>
+            <select class="selectm" multiple>
+                <option value="0">------Select cities-----</option>
+                <option value="1">Chennai</option>
+                <option value="2">Salem</option>
+                <option value="3">coimbatore</option>
+                <option value="4">madurai</option>
+            </select>
+            <br>
+            <label>Select you Know Languages:</label>
+            <input type="checkbox"/>Tamil <input type="checkbox"/>English 
+            <br>
+            <button value="submit">Register</button>
+            <button value="reset">Clear</button>
+        </form>
+    </div>
+    </fieldset>
+    
+</body>
+</html>
