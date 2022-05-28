@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: pink;
+}
+h1{
+    text-align: center;
+    color:red;
+    margin-top: 20px;
+}
+hr{
+    border: 1px solid red;
+}
+ul{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    height: 60px;
+    text-align: right;
+    
+
+}
+li{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    
+    
+}
+.container{
+    margin: 25px;
+    border: 2px solid blueviolet;
+    position: relative;
+    left:30px;
+    font-size: 20px;
+    padding: 5px;
+    height: 500px;
+    overflow: scroll;
+    width: 60%;
+}
+.header{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+img{
+    height: 250px;
+    width: 25%;
+    margin: 50px;
+}
+.pic > img {
+    float: right;
+    width: 30%;
+    height: 515px;
+    margin-right: 100px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
