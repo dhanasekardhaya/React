@@ -20,14 +20,11 @@ ul{
     margin-top: 25px;
     height: 60px;
     text-align: right;
-    
-
 }
 li{
     display: inline-block;
     padding: 5px;
     margin: 5px;
-    
     
 }
 .container{

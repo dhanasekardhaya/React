@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container > div{
+    font-size: 20px;
+    width: 300px;
+}
+@media screen and (max-width: 600px){
+    .container{
+        background-color: brown;
+    }
+    
+}
