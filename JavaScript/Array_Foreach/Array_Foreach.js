@@ -1,9 +1,9 @@
 const numbers = [100, 200, 300, 400, 500, 600, 700];
 let values = "";
 numbers.forEach(myFunction);
-function myFunction(array){
-    if(array==100)
-    values += array;
+function myFunction(value, index, array){
+    if(index==4)
+    values= value;
 }
 console.log(values);
 
