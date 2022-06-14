@@ -1,10 +1,19 @@
-const number = [10, 20, 30, 40, 50];
-
-const number_1 = number.map(myFunction);
-
-console.log("before mapping :"+  number);
-
-function myFunction(value, index){
-    return value * 2;
+const person ={
+    fullname: function(){
+        return this.firstName + " " + this.lastName;
+    }
 }
-console.log(number_1);
+
+const personName = {
+    firstName: "dhana",
+    lastName: "Sekar"
+
+}
+
+console.log (person.fullname.call(personName));
+
+console.log (person.fullname.apply(personName));
+
+let fullName = person.fullname.bind(personName);
+
+console.log(fullName());
