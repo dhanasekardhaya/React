@@ -1,7 +1,9 @@
 function add(){
     const para = document.createElement("p");
     para.innerText = "This is a paragraph";
-    document.getElementById("mydiv").appendChild(para);
+    const element = document.getElementById("mydiv");
+    element.appendChild(para);
+
 }
 
 function crash(){
